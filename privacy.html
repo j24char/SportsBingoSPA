@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy – Sports Bingo 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --orange: #F5830A;
+    --gold: #F5A623;
+    --red: #D63A2F;
+    --blue-dark: #1C3A8A;
+    --blue-mid: #2E59C8;
+    --blue-light: #6B9EE8;
+    --white: #FFFFFF;
+    --off-white: #FFF9F0;
+    --text-dark: #1a1a2e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--off-white);
+    color: var(--text-dark);
+  }
+
+  nav {
+    background: var(--blue-dark);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.35);
+  }
+  nav .logo {
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.6rem;
+    color: var(--gold);
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  nav .logo span { color: var(--blue-light); }
+  nav ul { list-style: none; display: flex; gap: 2rem; }
+  nav ul a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+  nav ul a:hover { color: var(--gold); }
+
+  .page-header {
+    background: linear-gradient(135deg, var(--blue-dark) 0%, #0f2560 100%);
+    padding: 3.5rem 2rem 3rem;
+    text-align: center;
+  }
+  .page-header h1 {
+    font-family: 'Boogaloo', cursive;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  .page-header p {
+    color: rgba(255,255,255,0.65);
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .policy-body {
+    max-width: 780px;
+    margin: 3rem auto;
+    padding: 0 2rem 4rem;
+  }
+
+  .policy-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 24px rgba(28,58,138,0.08);
+    border: 1.5px solid rgba(28,58,138,0.1);
+  }
+
+  .toc {
+    background: var(--off-white);
+    border-radius: 14px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2.5rem;
+    border-left: 5px solid var(--orange);
+  }
+  .toc h3 {
+    font-family: 'Boogaloo', cursive;
+    color: var(--blue-dark);
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+  }
+  .toc ol {
+    padding-left: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .toc a {
+    color: var(--blue-mid);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.92rem;
+    transition: color 0.2s;
+  }
+  .toc a:hover { color: var(--orange); }
+
+  .policy-section { margin-bottom: 2.5rem; }
+  .policy-section:last-child { margin-bottom: 0; }
+
+  .policy-section h2 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.45rem;
+    color: var(--blue-dark);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .policy-section h2 .num {
+    background: var(--orange);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+  }
+
+  .policy-section p {
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 0.85rem;
+    font-weight: 600;
+  }
+  .policy-section p:last-child { margin-bottom: 0; }
+
+  .policy-section ul {
+    padding-left: 1.5rem;
+    margin: 0.5rem 0 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .policy-section ul li {
+    font-size: 0.97rem;
+    color: #444;
+    line-height: 1.7;
+    font-weight: 600;
+  }
+  .policy-section ul li::marker { color: var(--orange); }
+
+  .highlight-box {
+    background: #E8F0FF;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    border-left: 4px solid var(--blue-mid);
+    margin-top: 0.75rem;
+  }
+  .highlight-box p {
+    color: var(--blue-dark);
+    font-size: 0.92rem;
+    margin: 0;
+  }
+
+  hr {
+    border: none;
+    border-top: 1.5px solid rgba(28,58,138,0.1);
+    margin: 2rem 0;
+  }
+
+  .contact-card {
+    background: linear-gradient(135deg, var(--blue-dark), var(--blue-mid));
+    border-radius: 16px;
+    padding: 1.75rem;
+    color: white;
+    margin-top: 2rem;
+  }
+  .contact-card h3 {
+    font-family: 'Boogaloo', cursive;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact-card p { color: rgba(255,255,255,0.8); font-size: 0.95rem; margin-bottom: 0; }
+  .contact-card a { color: var(--gold); font-weight: 800; text-decoration: none; }
+  .contact-card a:hover { text-decoration: underline; }
+
+  footer {
+    background: #0a1540;
+    color: rgba(255,255,255,0.5);
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+  footer a {
+    color: var(--blue-light);
+    text-decoration: none;
+    margin: 0 0.75rem;
+    transition: color 0.2s;
+  }
+  footer a:hover { color: var(--gold); }
+  footer .footer-links { margin-bottom: 0.75rem; }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="logo">Sports<span>Bingo</span> 2026</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#features">Features</a></li>
+    <li><a href="index.html#video">Gameplay</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<div class="page-header">
+  <h1>Privacy Policy</h1>
+  <p>Last updated: May 22, 2026</p>
+</div>
+
+<!-- POLICY CONTENT -->
+<div class="policy-body">
+  <div class="policy-card">
+
+    <div class="toc">
+      <h3>Table of Contents</h3>
+      <ol>
+        <li><a href="#s1">Information We Collect</a></li>
+        <li><a href="#s2">How We Use Your Information</a></li>
+        <li><a href="#s3">Information Sharing & Disclosure</a></li>
+        <li><a href="#s4">Data Retention</a></li>
+        <li><a href="#s5">Your Rights & Choices</a></li>
+        <li><a href="#s6">Children's Privacy</a></li>
+        <li><a href="#s7">Changes to This Policy</a></li>
+        <li><a href="#s8">Contact Us</a></li>
+      </ol>
+    </div>
+
+    <p>This Privacy Policy describes how Sports Bingo 2026 ("we," "our," or "us") collects, uses, and shares information when you use our iPhone application ("App"). By using the App, you agree to the collection and use of information in accordance with this policy.</p>
+
+    <hr>
+
+    <div class="policy-section" id="s1">
+      <h2><span class="num">1</span> Information We Collect</h2>
+      <p>We collect the following types of information when you use Sports Bingo 2026:</p>
+      <p><strong>Information you provide directly:</strong></p>
+      <ul>
+        <li>Messages or feedback you send to us through support channels</li>
+      </ul>
+      <p><strong>Information collected automatically:</strong></p>
+      <ul>
+        <li>Crash reports and performance diagnostics</li>
+        <li>iOS version and device model for compatibility purposes</li>
+      </ul>
+      <div class="highlight-box">
+        <p>We do not collect any location data, contacts, photos, microphone input, or any biometric data. We never sell your personal information.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s2">
+      <h2><span class="num">2</span> How We Use Your Information</h2>
+      <p>We use the information we collect to:</p>
+      <ul>
+        <li>Provide, operate, and improve the App and its features</li>
+        <li>Analyze usage trends to improve gameplay and fix bugs</li>
+        <li>Comply with legal obligations</li>
+      </ul>
+      <p>We do not use your data to serve third-party advertisements or build advertising profiles.</p>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s3">
+      <h2><span class="num">3</span> Information Sharing & Disclosure</h2>
+      <p>We do not sell, rent, or trade your information. We may share information in the following limited circumstances:</p>
+      <ul>
+        <li><strong>Multiplayer features:</strong> Your chosen display name and score may be visible to other players in a game session</li>
+        <li><strong>Legal requirements:</strong> If required by law, court order, or to protect our legal rights</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s4">
+      <h2><span class="num">4</span> Data Retention</h2>
+      <p>Anonymous usage and analytics data may be retained for up to 24 months to support product improvements.</p>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s5">
+      <h2><span class="num">5</span> Your Rights & Choices</h2>
+      <p>Depending on your location, you may have the following rights regarding your personal information:</p>
+      <ul>
+        <li><strong>Advertising ID:</strong> You can reset or limit use of the Advertising Identifier in your iPhone's Settings &gt; Privacy &amp; Security &gt; Tracking</li>
+      </ul>
+      <p>To exercise any of these rights, contact us at the email address listed in Section 10.</p>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s6">
+      <h2><span class="num">6</span> Children's Privacy</h2>
+      <p>Sports Bingo 2026 is intended for users aged 4 and older and is rated 4+ on the App Store. We do not knowingly collect personal information from children under the age of 13 without verifiable parental consent, in compliance with the Children's Online Privacy Protection Act (COPPA).</p>
+      <p>If you are a parent or guardian and believe your child has provided us with personal information without your consent, please contact us immediately so we can delete that information.</p>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s7">
+      <h2><span class="num">7</span> Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this page and, where appropriate, by in-app notification.</p>
+      <p>Continued use of the App after changes are posted constitutes your acceptance of the revised policy. We encourage you to review this policy periodically.</p>
+    </div>
+
+    <hr>
+
+    <div class="policy-section" id="s8">
+      <h2><span class="num">8</span> Contact Us</h2>
+      <p>If you have questions, concerns, or requests related to this Privacy Policy or your personal data, please reach out to us:</p>
+      <div class="contact-card">
+        <h3>Sports Bingo 2026 Support</h3>
+        <p>Email: <a href="mailto:information@jalancsystems.com">information@jalancsystems.com</a><br>
+        We aim to respond to all inquiries within 5 business days.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:support@information@jalancsystems.com">Support</a>
+  </div>
+  <p>© 2026 Jalac Systems. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
